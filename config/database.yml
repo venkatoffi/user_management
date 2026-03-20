@@ -1,0 +1,203 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: venkat
+  password: ''
+  pool: 5
+
+development:
+  <<: *default
+  database: user_management_dev
+
+test:
+  <<: *default
+  database: user_management_test
+
+production:
+  <<: *default
+  database: user_management_prd
+  username: myapp
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: venkat
+  password: ''
+  pool: 5
+
+development:
+  <<: *default
+  database: user_management_dev
+
+test:
+  <<: *default
+  database: user_management_test
+
+production:
+  <<: *default
+  database: user_management_prd
+  username: myapp
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: venkat
+  password: ''
+  pool: 5
+
+development:
+  <<: *default
+  database: user_management_dev
+
+test:
+  <<: *default
+  database: user_management_test
+
+production:
+  <<: *default
+  database: user_management_prd
+  username: myapp
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: venkat
+  password: ''
+  pool: 5
+
+development:
+  <<: *default
+  database: user_management_dev
+
+test:
+  <<: *default
+  database: user_management_test
+
+production:
+  <<: *default
+  database: user_management_prd
+  username: myapp
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: venkat
+  password: ''
+  pool: 5
+
+development:
+  <<: *default
+  database: user_management_dev
+
+test:
+  <<: *default
+  database: user_management_test
+
+production:
+  <<: *default
+  database: user_management_prd
+  username: myapp
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: venkat
+  password: ''
+  pool: 5
+
+development:
+  <<: *default
+  database: user_management_dev
+
+test:
+  <<: *default
+  database: user_management_test
+
+production:
+  <<: *default
+  database: user_management_prd
+  username: myapp
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: venkat
+  password: ''
+  pool: 5
+
+development:
+  <<: *default
+  database: user_management_dev
+
+test:
+  <<: *default
+  database: user_management_test
+
+production:
+  <<: *default
+  database: user_management_prd
+  username: myapp
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: venkat
+  password: ''
+  pool: 5
+
+development:
+  <<: *default
+  database: user_management_dev
+
+test:
+  <<: *default
+  database: user_management_test
+
+production:
+  <<: *default
+  database: user_management_prd
+  username: myapp
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: venkat
+  password: ''
+  pool: 5
+
+development:
+  <<: *default
+  database: user_management_dev
+
+test:
+  <<: *default
+  database: user_management_test
+
+production:
+  <<: *default
+  database: user_management_prd
+  username: myapp
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: venkat
+  password: ''
+  pool: 5
+
+development:
+  <<: *default
+  database: user_management_dev
+
+test:
+  <<: *default
+  database: user_management_test
+
+production:
+  <<: *default
+  database: user_management_prd
+  username: myapp
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+
+
