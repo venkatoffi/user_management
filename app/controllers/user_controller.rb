@@ -1,7 +1,6 @@
 class UserController < ApplicationController
-  
   def index
-    @data = "Venkat"
+    @current_time = Time.current.in_time_zone("Asia/Kolkata")
   end
 
   def create
