@@ -7,7 +7,7 @@
     # root "sessions#create"
   end
 
-  resources :user, only: [:create]
+  resources :user, only: [:create, :show]
 
   post '/login', to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'

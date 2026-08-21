@@ -3,6 +3,16 @@ class UserController < ApplicationController
     @current_time = Time.current.in_time_zone("Asia/Kolkata")
   end
 
+  def show
+    user = User.find_by(id: params[:id])
+
+    if user
+      render json: { id: user.id, name: user.name, email: user.email }, status: :ok
+    else
+      render json: { error: 'User not found' }, status: :not_found
+    end
+  end
+
   def create
     user = User.new(user_params)
 
