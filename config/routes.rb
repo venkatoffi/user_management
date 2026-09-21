@@ -3,8 +3,7 @@
   get "/health", to: proc { [200, {}, ['OK']] }
 
   Rails.application.routes.draw do
-    root "user#index"
-    # root "sessions#create"
+    root "application#index"
   end
 
   resources :user, only: [:create]

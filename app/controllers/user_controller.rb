@@ -1,7 +1,4 @@
 class UserController < ApplicationController
-  def index
-    @current_time = Time.current.in_time_zone("Asia/Kolkata")
-  end
 
   def create
     user = User.new(user_params)
